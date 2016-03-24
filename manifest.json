@@ -1,0 +1,39 @@
+{
+	"name":"WhatsApp Web",
+	"version":"1.0",
+	"manifest_version":2,
+	"minimum_chrome_version":"37.0.0.0",
+	"description":"WhatsApp web wrapper. Bring WhatsApp to your desktop as a Chrome App",
+	"permissions":[
+		"webview",
+		"power",
+		"storage",
+		"videoCapture",
+		"geolocation",
+		"pointerLock",
+		"system.display",
+		{
+			"fileSystem":[
+				"write",
+				"retainEntries",
+				"directory"
+				]
+		},
+		"accessibilityFeatures.read",
+		"accessibilityFeatures.modify"
+	],
+	"app":{
+		"background":{
+			"scripts":[
+				"js/foam.js",
+				"js/cab.js",
+				"config.js",
+				"background_main.js"
+			]
+		}
+	},
+	"default_locale":"en",
+	"icons":{
+		"128":"img/128.png"
+		}
+	}
