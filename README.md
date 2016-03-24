@@ -14,3 +14,9 @@ The only required tool is a **Chrome/ Chromium** browser v37.0+
 * When app starts right click on the app icon in the launcher (task bar for Windows users) and click lock to launcher (pin to task bar on Windows) to easily launch the app
 * Enjoy using the app! Don't forget to star and fork!
 
+* * *
+#### Screenshots 
+![screenshot 01](/screenshots/screenshot.png)
+
+* * *
+![screenshot 02](/screenshots/screenshot02.png)
